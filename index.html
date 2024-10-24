@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Bebeto, estudante de Sistemas de Informação, com projetos em tecnologia e desenvolvimento.">
+    <meta name="keywords" content="Bebeto, portfólio, tecnologia, desenvolvimento, programação, sistemas de informação">
+    <title>Bebeto - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+</head>
+<body>
+    <!-- Página Inicial -->
+    <div class="inicio">
+        <h1 class="welcome-text">Seja bem vindo!</h1>
+        <p class="intro">Este é o portfólio de Roberto Henrique Duarte. ⬇️⬇️</p>
+        <nav class="nav-inicio">
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#skills">Tecnologias</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <main>
+        <section id="sobre-mim" class="sobre-mim">
+            <h1 class="title">Olá, sou Bebeto</h1>
+            <img src="imgs/bebeto.png" alt="Bebeto" class="profile-photo">
+            <p class="description">
+                Roberto Henrique mais conhecido como Bebeto, sou um apaixonado por tecnologia e desenvolvimento de soluções inovadoras. Atualmente, curso Sistemas de Informação na Universidade do Estado de Minas Gerais (UEMG) e atuo como estagiário de TI na Mineração Morro Verde. Meu foco de carreira é me tornar um desenvolvedor web fullstack, combinando backend e frontend para criar soluções completas e impactantes.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2 data-aos="fade-up">Tecnologias</h2>
+            <div class="tecnologias">
+                <div class="skill">
+                    <img src="imgs/skills/C.png" alt="C - Linguagem de Programação">
+                    <div class="skill-name">C</div>
+                </div>
+                <div class="skill">
+                    <img src="imgs/skills/c++.png" alt="C++ - Linguagem de Programação">
+                    <div class="skill-name">C++</div>
+                </div>
+                <div class="skill">
+                    <img src="imgs/skills/JS.png" alt="JavaScript - Linguagem de Programação">
+                    <div class="skill-name">JavaScript</div>
+                </div>
+                <div class="skill">
+                    <img src="imgs/skills/java.png" alt="Java - Linguagem de Programação">
+                    <div class="skill-name">Java</div>
+                </div>
+                <div class="skill">
+                    <img src="imgs/skills/python.png" alt="Python - Linguagem de Programação">
+                    <div class="skill-name">Python</div>
+                </div>
+                <div class="skill">
+                    <img src="imgs/skills/mysql.png" alt="MySQL - Sistema de Gerenciamento de Banco de Dados">
+                    <div class="skill-name">MySQL</div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="projects">
+            <h2 data-aos="fade-up">Projetos</h2>
+            <div class="project">
+                <img src="imgs/sites/bemtevi.png" alt="bem te vi">
+                <h3>Projeto 1: Bem-te-vi</h3>
+                <p>Descrição breve do projeto. Uma explicação do que ele faz e das tecnologias usadas.</p>
+                <a href="https://bem-te-vii.netlify.app/" target="_blank">Veja</a>
+            </div>
+            <div class="project">
+                <img src="imgs/sites/conversor.png" alt="Descrição do Projeto 2">
+                <h3>Projeto 2: Conversor Monetário</h3>
+                <p>Descrição breve do projeto. Uma explicação do que ele faz e das tecnologias usadas.</p>
+                <a href="https://conversor-monetarioo.netlify.app/" target="_blank">Veja</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 data-aos="fade-up">Contatos</h2>
+            <p>Entre em contato comigo nas redes abaixo, vamos nos conectar!</p>
+            <ul>
+                <li>
+                    <a href="mailto:robertohenriqueduarte05@gmail.com" aria-label="E-mail">
+                        <img src="imgs/mail.png" alt="E-mail de Bebeto" width="24" height="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5535998089931" target="_blank" aria-label="WhatsApp">
+                        <img src="imgs/whats.png" alt="WhatsApp de Bebeto" width="24" height="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/roberto-henrique-duarte-123b63267/" target="_blank" aria-label="LinkedIn">
+                        <img src="imgs/linkedin.png" alt="LinkedIn de Bebeto" width="24" height="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/rhbebeto" target="_blank" aria-label="GitHub">
+                        <img src="imgs/git.png" alt="GitHub de Bebeto" width="24" height="24">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/rhbebeto/" target="_blank" aria-label="Instagram">
+                        <img src="imgs/insta.png" alt="Instagram de Bebeto" width="24" height="24">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span>, desenvolvido por Bebeto.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+    <script>
+        AOS.init(); // Inicializa as animações
+
+        // Atualiza o ano no rodapé
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
